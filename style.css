@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: Reg;
+    src: url(DMSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: Pepi;
+    src: url(DMSans-Regular.ttf);
+}
+
+body {
+    font-family: pepi;
+    
+    overflow-x: hidden;
+}
+
+.nav-item, .nav-link {
+    font-size: 14px; font-weight: 200;
+}
+
+header, nav , h1{
+    font-family: Reg;
+}
+
+.card .card-title{
+    font-family: Reg;
+}
+
+.section-5{
+    background-color: #2C2C2C;
+}
+
+.section-5 .card .card-body{
+    background-color:#3B3B3B ;
+}
+
+.section-5 .card .card-title{
+    font-family: Pepi;
+}
+
+.section-5 .btn{
+    font-family: Reg;
+}
+
+.section-6{
+    
+    background-position: center;
+}
+
+table, thead, .head1{
+    border-left: none !important;
+}
+
+table, tbody, .mr{
+    border-right: none !important;
+}
+
+table, td, th {
+    border:1px dashed black !important;   
+}
+
+table, thead, tr, th{
+    border-top:none !important;
+    border-right: none !important; 
+   
+}
+
+ table, tbody, tr, td{
+    border-left: none !important;
+} 
+
+table th {
+    border-bottom: 1px solid black !important;
+}
+
+.section-7 input, select{
+    border: 2px solid black !important;
+    border-radius: 0 !important;
+}
+
+table{
+    width: 85% !important;
+    height: 50%;
+}
+
+table thead{
+    height: 17% !important;
+}
+
+input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+         -webkit-appearance: none;
+      }
+
+.font-family-Reg{
+    font-family: Reg;
+}
+
+.font-family-Pepi{
+    font-family: Pepi;
+}
+/* 
+input[type="text"], input[type="email"]::-webkit-input-placeholder{
+    font-size: 17px !important;
+} */
